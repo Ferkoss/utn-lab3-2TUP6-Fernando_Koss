@@ -6,7 +6,12 @@ const Login=()=>{
 
     const changeInput=(e)=>{
         setUser(e.target.value)
+        if(e.target.value.toLowerCase()[e.target.value.length-1]=="o"){
+            alert("Por favor, ¡Nombres de usuario sin la letra o!") 
+        }
     }
+
+    
 
     const register=(e)=>{
         e.preventDefault()
