@@ -1,0 +1,32 @@
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.item p{
+    font-size: 20px;
+}
+
+.item button{
+    height: 20px;
+    width: 70px;
+}
+
+.div-buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.completed{
+    border-color: red;
+    
+}
+
+.completed p{
+    text-decoration:line-through;
+}
